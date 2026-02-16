@@ -1,0 +1,48 @@
+/* Reset */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* Parent Flex Container */
+.parent{
+    width:700px;
+    margin:50px auto;
+    border:2px solid black;
+
+    display:flex;              /* FLEX ENABLED */
+    /* justify-content:space-around; /* horizontal alignment */
+    /* align-items:center;  */
+          /* vertical alignment */
+          /* flex-direction: row; */ 
+          
+}
+
+/* Children */
+.child{
+    width:100px;
+    height:100px;
+    background-color:orange;
+    border:2px solid red;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+  
+}
+.child1{
+    background-color: blue;
+    flex-grow: 1;
+}
+.child2{
+    background-color: brown;
+    flex-grow: 2;
+}
+{}
+.child3{
+    background: yellow;
+    flex-shrink: 0px;
+}
+

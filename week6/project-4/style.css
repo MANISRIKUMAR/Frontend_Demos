@@ -1,0 +1,41 @@
+/*static ,releative,absoulte ,fixed,stcky*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    position: relative;
+    top:300px;
+    left: 500px;
+
+}
+
+.parent{
+    width:500px;
+    margin:auto;
+    margin-top:150px;
+    border:100px,chocolate;
+}
+.child{
+width: 100px;
+height:100px;
+}
+
+    .child1{
+        
+        background-color:blueviolet;
+
+
+}
+.child2{
+    background-color: blanchedalmond;
+    position:sticky;
+    top: 100px;
+}
+.child3{
+    background-color: rgb(154, 36, 36);
+    position:fixed;
+}

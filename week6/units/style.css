@@ -1,0 +1,12 @@
+/*units deemo*/
+/*font size should  be ib rem $ em */
+/*1em=font size of the parent*/
+
+
+/* h1{
+font-size:5rem;
+} */
+
+h1{
+    font: size 10vh;
+}
