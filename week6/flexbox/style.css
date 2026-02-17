@@ -118,3 +118,17 @@ footer{
 }
 
 /* ===== RESPONSIVE ===== */
+@media screen and (max-width:700px) {
+    nav{
+    flex-direction: coloumn;
+    align-items: cneter;
+    }
+    nav ul
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+}

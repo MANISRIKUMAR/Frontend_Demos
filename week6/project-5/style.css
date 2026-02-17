@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ 
+}
+/* Individual card */
+.card{
+    background:rgb(234, 132, 8);
+    padding:20px;
+    border-radius:10px;
+    display: flex;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
